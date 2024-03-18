@@ -5,3 +5,5 @@ jdk:
 install:
 - mvn -N io.takari:maven:wrapper
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+#https://github.com/travis-ci/travis-ci/issues/6298
