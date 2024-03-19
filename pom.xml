@@ -88,6 +88,7 @@
 		<dependency>
     		<groupId>org.springframework.security</groupId>
     		<artifactId>spring-security-config</artifactId>
+			<version>5.7.3</version>
 		</dependency>
 
 		<!--
@@ -107,6 +108,12 @@
     		<groupId>org.apache.commons</groupId>
     		<artifactId>commons-lang3</artifactId>
     		<version>3.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
 		</dependency>
 	</dependencies>
 
